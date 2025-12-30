@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav
@@ -15,31 +17,34 @@ export default function Navbar() {
       "
     >
       {/* === LOGO === */}
+      {/* Bungkus logo dengan Link agar bisa kembali ke home saat diklik */}
       <div className="flex items-center gap-[37px] pl-[30px]">
-        <img src="/logo.png" alt="Sabita Logo" className="h-10" />
+        <Link href="/">
+          <img src="/logo.png" alt="Sabita Logo" className="h-10 cursor-pointer" />
+        </Link>
       </div>
 
       {/* === MENU === */}
       <div className="flex items-center gap-[48px] font-medium bg-white">
-        <a
-          href="#about"
+        {/* Tambahkan / sebelum # agar kembali ke home dulu baru scroll ke ID */}
+        <Link
+          href="/#about"
           className="text-black no-underline hover:opacity-70 transition"
         >
           About
-        </a>
-        <a
-          href="#projects"
+        </Link>
+        <Link
+          href="/#projects"
           className="text-black no-underline hover:opacity-70 transition"
         >
           Project
-        </a>
+        </Link>
       </div>
-
 
       {/* === BUTTON HIRE ME === */}
       <div className="flex items-center pr-[20px]">
-        <a
-          href="#contact"
+        <Link
+          href="/#contact"
           className="
             bg-[#000000] text-[#FFFFFF]
             px-[25px] py-[10px] text-lg
@@ -51,7 +56,7 @@ export default function Navbar() {
           "
         >
           Hire Me!
-        </a>
+        </Link>
       </div>
 
     </nav>

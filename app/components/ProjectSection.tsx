@@ -27,37 +27,37 @@ export default function ProjectSection() {
           title="ThinkPop"
           desc="Interactive hybrid experience merging holographic storytelling with a quiz app."
           image="thinkpop.png"
-          link="#"
+          link="/projects/thinkpop"
         />
         <ProjectCard
           title="Allevio"
           desc="Mental health app combining mood tracking, AI chatbot, and meditation."
           image="allevio.png"
-          link="#"
+          link="/projects/allevio"
         />
         <ProjectCard
           title="SAKUIN"
           desc="Smart financial app designed to help you manage your income wisely and secure a better future."
           image="sakuin.png"
-          link="#"
+          link="/projects/sakuin"
         />
         <ProjectCard
           title="DOMPY"
           desc="Smart digital wallet for the intelligent fintech generation, making financial management easier and more innovative."
           image="dompy.png"
-          link="#"
+          link="/projects/dompy"
         />
         <ProjectCard
           title="SIGMA (Siaga Malang)"
           desc="Rapid-response application for reporting incidents, accessing emergency services, and providing public safety information."
           image="sigma.png"
-          link="#"
+          link="/projects/sigma"
         />
         <ProjectCard
           title="PORTANI"
           desc="Collaborative agricultural platform empowering farmers to grow together and build a better nation."
           image="portani.png"
-          link="#"
+          link="/projects/portani"
         />
       </div>
     </section>

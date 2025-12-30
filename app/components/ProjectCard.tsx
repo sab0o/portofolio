@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function ProjectCard({
   title,
   desc,
@@ -30,9 +31,8 @@ export default function ProjectCard({
         </div>
 
         {/* Tombol */}
-        <a
+        <Link
           href={link}
-          target="_blank"
           rel="noopener noreferrer"
           className="bg-[#000000] text-[#FFFFFF]
             px-[10px] py-[10px] text-lg
@@ -43,7 +43,7 @@ export default function ProjectCard({
             flex items-center justify-center"
         >
           More →
-        </a>
+        </Link>
       </div>
     </div>
   );
