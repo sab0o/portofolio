@@ -5,21 +5,15 @@ import { useRef } from "react";
 
 const features = [
   {
-    title: "Kolektin",
-    tagline: "Wujudkan Mimpi Besar Melalui Kekuatan Kolaborasi.",
-    desc: "Kolektin merevolusi cara Anda menabung dengan sistem grup yang transparan dan aman. Dilengkapi dengan AI Saving Coach, fitur ini tidak hanya menyediakan progress bar untuk memantau pencapaian kelompok secara real-time, tetapi juga memberikan wawasan cerdas agar target finansial tercapai lebih efektif. Terintegrasi langsung dengan mitra perbankan, Kolektin memastikan setiap rupiah Anda terkelola dengan bijak demi membangun budaya menabung yang berkelanjutan.",
+    title: "Pinterest-Like Recipe Feed",
+    tagline: "Temukan Inspirasi Sekaligus Tekniknya.",
+    desc: "Jelajahi umpan komunitas yang artistik di mana setiap foto dilengkapi dengan \"resep\" lengkap—mulai dari pengaturan kamera seperti ISO, shutter speed, dan aperture, hingga preset spesifik yang digunakan. Anda tidak hanya melihat karya seni, tetapi juga mempelajari proses di baliknya. Fitur ini menggabungkan inspirasi visual dengan edukasi teknis, memungkinkan pengguna untuk tidak hanya mengagumi foto-foto menakjubkan tetapi juga memahami cara menciptakannya sendiri.",
     textColor: "text-black"
   },
   {
-    title: "Spendle",
-    tagline: "Benteng Pintar dari Godaan Belanja Impulsif.",
-    desc: "Spendle adalah asisten disiplin yang membantu Anda membedakan antara keinginan sesaat dan kebutuhan produktif. Melalui fitur Cooling Period Timer selama 24 jam dan sistem voting grup, setiap transaksi besar Anda akan mendapatkan peninjauan objektif dari komunitas. Fitur ini mendorong pola konsumsi yang lebih bertanggung jawab, memastikan dana Anda dialihkan untuk hal-hal yang benar-benar memberikan nilai jangka panjang.",
-    textColor: "text-black"
-  },
-  {
-    title: "DoMatch",
-    tagline: "Hubungkan Ambisi, Perkuat Literasi Finansial Bersama.",
-    desc: "Belajar finansial kini tidak lagi terasa sendirian. DoMatch adalah fitur matchmaking unik yang mempertemukan Anda dengan individu yang memiliki visi dan tujuan keuangan serupa. Di sini, Anda dapat saling berbagi tips, mengikuti tantangan menabung, dan memperluas jaringan inklusif yang mendukung pertumbuhan literasi keuangan. Bersama DoMatch, akses terhadap pendidikan finansial menjadi lebih relevan, inklusif, dan mudah dijangkau.",
+    title: "Interactive Photography Community",
+    tagline: "Terhubung dengan Sesama Pecinta Visual.",
+    desc: "Bangun profil portofolio Anda sendiri, simpan preset favorit dari kreator lain, dan berinteraksi melalui sistem suka, komentar, serta pengikut. Rensa bukan sekadar alat pengeditan, melainkan ekosistem untuk saling belajar dan mengapresiasi teknik fotografi. Dengan fitur komunitas yang interaktif, pengguna dapat memperluas jaringan mereka, mendapatkan umpan balik konstruktif, dan terus mengasah keterampilan mereka dalam lingkungan yang suportif dan inspiratif.",
     textColor: "text-black"
   }
 ];
