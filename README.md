@@ -29,5 +29,5 @@ I am always open to exciting collaborations at the intersection of design and de
 ---
 
 <p align="center">
-  © 2025 Sabita Khansa Dewi. Built with passion.
+  © 2025 Sabita Khansa Dewi. Built with ❤️.
 </p>
