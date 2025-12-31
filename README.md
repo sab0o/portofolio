@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 Sabita's Creative Portfolio
 
-## Getting Started
+Welcome to my digital portfolio repository. This website is built using **Next.js 15** to showcase my journey as a **UI/UX Designer** and **Front-End Developer**. I specialize in merging clean aesthetics with robust technology to create digital solutions that drive social impact.
 
-First, run the development server:
+🔗 **Live Demo:** [portfoliosabita.vercel.app](https://portfoliosabita.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is developed with a focus on high performance, smooth animations, and scalability:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Framework:** Next.js 15 (App Router).
+* **Styling:** Tailwind CSS for responsive and utility-first design.
+* **Animation:** Framer Motion for scrollytelling and interactive components.
+* **3D Rendering:** React Three Fiber / Three.js for the immersive `Phone3D` component.
+* **Deployment:** Vercel.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📬 Get in Touch
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I am always open to exciting collaborations at the intersection of design and development.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **LinkedIn:** [Sabita Khansa Dewi](https://linkedin.com/in/sabitakhansadewi)
+* **Instagram:** [@sabitakhnsa](https://instagram.com/sabitakhnsa)
+* **Email:** [sabitakhansadewi@gmail.com](mailto:sabitakhansadewi@gmail.com)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  © 2025 Sabita Khansa Dewi. Built with passion.
+</p>
