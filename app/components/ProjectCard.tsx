@@ -4,11 +4,13 @@ export default function ProjectCard({
   desc,
   image,
   link,
+  newTab = false
 }: {
   title: string;
   desc: string;
   image: string;
   link: string;
+  newTab?: boolean;
 }) {
   return (
     <div className="bg-[#ffffff] p-[45px] rounded-[20px] shadow-[0_4px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_6px_25px_rgba(0,0,0,0.12)] transition-all duration-300 flex flex-col justify-between">
@@ -33,7 +35,8 @@ export default function ProjectCard({
         {/* Tombol */}
         <Link
           href={link}
-          rel="noopener noreferrer"
+          target={newTab ? "_blank" : "_self"} 
+          rel={newTab ? "noopener noreferrer" : ""}
           className="bg-[#000000] text-[#FFFFFF]
             px-[10px] py-[10px] text-lg
             rounded-full

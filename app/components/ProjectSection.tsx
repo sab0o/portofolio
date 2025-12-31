@@ -59,6 +59,19 @@ export default function ProjectSection() {
           image="portani.png"
           link="/projects/portani"
         />
+        <ProjectCard
+          title="Cerita Ketindan"
+          desc="Website profile for Ketindan Village, showcasing its culture, tourism, and community."
+          image="ceritaketindan.png"
+          link="https://ceritaketindan.vercel.app/"
+          newTab={true}
+        />
+        <ProjectCard
+          title="Rensa"
+          desc="Website for photography enthusiasts to showcase and share their work."
+          image="rensa.png"
+          link="/projects/rensa"
+        />
       </div>
     </section>
   );
